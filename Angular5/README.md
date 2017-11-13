@@ -1,6 +1,9 @@
 # AngularLifecycleHooks
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+```bash
+new AngularLifecycleHooks --dir=Angular5 --routing --style=scss --dry 
+```
 
 ## Development server
 
