@@ -7,7 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class NumberToWeatherComponent implements OnInit {
-weather:number=1;
+  
+  weather:number=0;
   constructor() { }
 
   ngOnInit() {
