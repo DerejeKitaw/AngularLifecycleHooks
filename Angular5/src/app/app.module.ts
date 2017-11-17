@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LifeCycleHookModule } from './life-cycle-hook/life-cycle-hook.module';
 import { CommonModule } from '@angular/common';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PipesModule } from './pipes/pipes.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LifeCycleHookModule
+    LifeCycleHookModule,
+    PipesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

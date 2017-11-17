@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LifeCycleHookRoutingModule } from './life-cycle-hook-routing.module';
-import { LoggerService } from './service/loger.service';
+import { LogerService } from './service/loger.service';
 import { OnChangesComponent } from './on-changes/on-changes.component';
 
 @NgModule({
@@ -11,6 +11,6 @@ import { OnChangesComponent } from './on-changes/on-changes.component';
     LifeCycleHookRoutingModule
   ],
   declarations: [OnChangesComponent],
-  providers:[LoggerService]
+  providers:[LogerService]
 })
 export class LifeCycleHookModule { }

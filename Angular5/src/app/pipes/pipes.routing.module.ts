@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OnChangesComponent } from './on-changes/on-changes.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from '../page-not-found/page-not-found.component';
+import { NumberToWeatherComponent } from './number-to-weather/number-to-weather.component';
 
 const routes: Routes = [
-  { path: 'onChanges', component: OnChangesComponent },
-  // { path: '**', component: PageNotFoundComponent } commented so routing will keep looking for pipe modules
+  { path: 'numberToWeather', component: NumberToWeatherComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
@@ -15,4 +15,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class LifeCycleHookRoutingModule { }
+export class PipesRoutingModule { }

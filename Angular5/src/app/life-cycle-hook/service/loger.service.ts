@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class LoggerService {
+export class LogerService {
   // ===========================================================================
   // logs array to store messages
   // ===========================================================================
