@@ -9,7 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { LifeCycleHookModule } from './life-cycle-hook/life-cycle-hook.module';
 import { CommonModule } from '@angular/common';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { PipesModule } from './pipes/pipes.module';
+import { ComponentsModule } from './components/components.module';
+import { NumberToWeatherPipe } from './pipes/number-to-weather.pipe';
 
 
 @NgModule({
@@ -17,13 +18,14 @@ import { PipesModule } from './pipes/pipes.module';
     AppComponent,
     MenuComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LifeCycleHookModule,
-    PipesModule,
+    ComponentsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
